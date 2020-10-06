@@ -88,7 +88,6 @@ zsh
   - Install package control
   - Install packages:
     - LaTeXTools
-    - Markdown Extended
     - MarkdownPreview
     - PlistBinary
   - Copy to `User` [Russian-English Bilingual](https://github.com/titoBouzout/Dictionaries) dictionary (`.aff` and `.dic`).
@@ -97,12 +96,9 @@ zsh
 <details>
   <summary><i>Xcode</i></summary>
 
-  - Accounts:
-    - add developer account
-  - Text Editing:
-    - add page guide at 80 characters
-  - Source Control:
-    - disabled source control
+  - Add developer account
+  - Set ruler at 80 characters
+  - Disable source control
 </details>
 
 ### 6. Generate SSH key
