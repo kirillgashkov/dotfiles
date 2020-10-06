@@ -28,15 +28,6 @@ zsh
 ### 4. Setup system
 
 <details>
-  <summary><i>Change screenshot's default location</i></summary>
-
-  ```sh
-  # now all screenshots will be in ~/Downloads
-  defaults write com.apple.screencapture location ~/Downloads
-  ```
-</details>
-
-<details>
   <summary><i>Tweak dock's settings</i></summary>
 
   ```sh
