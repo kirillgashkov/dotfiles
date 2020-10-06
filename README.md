@@ -72,57 +72,9 @@ zsh
 </details>
 
 <details>
-  <summary><i>1Password</i></summary>
-
-  - Turn helper off
-</details>
-
-<details>
-  <summary><i>Alfred</i></summary>
-
-  - Default results:
-    - turn "Folders" on and everything else off
-  - File Search:
-    - turn off "open", "find", "tags"
-  - Web Search:
-    - turn everything off
-  - Dictionary:
-    - rename "define" to "def"
-    - turn off "spell"
-  - System:
-    - turn confirmation on for "emptytrash", "restart", "shutdown", "quitall"
-    - turn off "volup", "voldown", "mute"
-    - turn on "ejectall"
-  - Appearance:
-    - select "Alfred macOS Dark"
-    - check "hide hat" and "hide menu bar icon" in options
-</details>
-
-<details>
-  <summary><i>Amphetamine</i></summary>
-
-  - End session if charge is below 10%
-  - Use "Caffeine" for menu bar image
-</details>
-
-<details>
-  <summary><i>AppCleaner</i></summary>
-
-  - Show protected apps
-  - Protect default macOS apps
-  - Do not protect running apps
-</details>
-
-<details>
   <summary><i>iTerm</i></summary>
 
   - Turn on custom folder preferences
-</details>
-
-<details>
-  <summary><i>Spectacle</i></summary>
-
-  - Unbind "Lower Left", "Lower Right", "Next Display", "Previous Display"
 </details>
 
 <details>
@@ -136,21 +88,6 @@ zsh
     - MarkdownPreview
     - PlistBinary
   - Copy to `User` [Russian-English Bilingual](https://github.com/titoBouzout/Dictionaries) dictionary (`.aff` and `.dic`).
-</details>
-
-<details>
-  <summary><i>Transmission</i></summary>
-
-  - Turn off sleep prevent
-  - Turn on deletion of original torrent
-  - Turn on check remove downloading
-  - Turn on check quit downloading
-</details>
-
-<details>
-  <summary><i>VLC</i></summary>
-
-  - Copy `vlcrc` to `~/Library/Preferences/org.videolan.vlc/vlcrc`
 </details>
 
 <details>
