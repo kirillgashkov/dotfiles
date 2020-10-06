@@ -28,19 +28,6 @@ zsh
 ### 4. Setup system
 
 <details>
-  <summary><i>Turn off app relaunching on startup</i></summary>
-
-  ```sh
-  # make the file owned by root (otherwise the OS will just replace it)
-  sudo chown root ~/Library/Preferences/ByHost/com.apple.loginwindow*
-  # remove all permissions, so it can't be read or written to
-  sudo chmod 000 ~/Library/Preferences/ByHost/com.apple.loginwindow*
-  # re-enable macOS's obnoxious "relaunch all the things" behavior
-  sudo rm -f ~/Library/Preferences/ByHost/com.apple.loginwindow*
-  ```
-</details>
-
-<details>
   <summary><i>Change screenshot's default location</i></summary>
 
   ```sh
@@ -53,7 +40,6 @@ zsh
   <summary><i>Tweak dock's settings</i></summary>
 
   ```sh
-
   # Speed up the dock's hiding animation (delete this key to revert)
   defaults write com.apple.dock autohide-time-modifier -float 0.7
   # Speed up the dock's autohide delay (delete this key to revert)
