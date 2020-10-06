@@ -51,6 +51,8 @@ zsh
 
 ### 5. Setup apps
 
+#### Built-in
+
 <details>
   <summary><i>Finder</i></summary>
 
@@ -70,6 +72,8 @@ zsh
 
   - Show `Develop` menu
 </details>
+
+#### External
 
 <details>
   <summary><i>iTerm</i></summary>
