@@ -49,34 +49,20 @@ zsh
   ```
 </details>
 
-
 ### 5. Setup apps
 
 <details>
   <summary><i>Finder</i></summary>
 
-  - Show View Options (in `~/` directory):
-    - Sort by: "Snap to Grid"
-    - Show Library Folder
-    - Use as Defaults
-  - Show View Options (on the desktop itself):
-    - Sort by: "Snap to Grid"
-    - Use as Defaults
-  - Finder Preferences (general):
-    - New Finder windows show: home
-  - Finder Preferences (sidebar):
-    - Favorites:
-      - home
-      - AirDrop
-      - Downloads
-      - Applications
-    - Locations:
-      - Everything except this computer
-  - Finder Preferences (advanced):
-    - Show all filename extensions: true
-    - Show warning before changing an extension: false
-    - Keep folders on top in windows: true
-    - When performing a search: search the current folder
+  - Visibility
+    - Make `~/Library` visible
+    - Make hidden files visible
+  - Extensions
+    - Make extensions visible
+    - Suppress warnings when changing extensions
+  - Miscellaneous
+    - Make new tabs start at `~/`
+    - Enable snap to grid
 </details>
 
 <details>
