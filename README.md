@@ -108,13 +108,27 @@ zsh
   - Enable Caps Lock to switch languages
 </details>
 
-### 6. Generate SSH key
+### 6. Setup SSH
+
+#### Generating a new SSH key
 
 > [Generating a new SSH key](https://help.github.com/en/github/authenticating-to-github/generating-a-new-ssh-key-and-adding-it-to-the-ssh-agent)
 
 ```sh
 ssh-keygen -t rsa -b 4096 -C "your_email@example.com"
 ```
+
+#### Add SSH key to GitHub account
+
+> [Add SSH key to GitHub account](https://docs.github.com/en/free-pro-team@latest/github/authenticating-to-github/adding-a-new-ssh-key-to-your-github-account)
+
+Start with copying the public key.
+
+```sh
+pbcopy < ~/.ssh/id_rsa.pub
+```
+
+Continue with opening settings of your GitHub account and pasting the key there.
 
 ## License
 
