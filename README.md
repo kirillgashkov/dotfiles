@@ -66,6 +66,12 @@ zsh
 </details>
 
 <details>
+  <summary><i>Safari</i></summary>
+
+  - Show `Develop` menu
+</details>
+
+<details>
   <summary><i>1Password</i></summary>
 
   - Turn helper off
