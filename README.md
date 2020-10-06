@@ -101,6 +101,13 @@ zsh
   - Disable source control
 </details>
 
+<details>
+  <summary><i>Karabiner</i></summary>
+
+  - Copy complex modifications to config folder
+  - Enable Caps Lock to switch languages
+</details>
+
 ### 6. Generate SSH key
 
 > [Generating a new SSH key](https://help.github.com/en/github/authenticating-to-github/generating-a-new-ssh-key-and-adding-it-to-the-ssh-agent)
