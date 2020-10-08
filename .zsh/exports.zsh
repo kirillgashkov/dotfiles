@@ -28,9 +28,9 @@ export PATH="$PATH:$GOPATH/bin"
 export TERM='xterm-256color'
 
 # programs
-export EDITOR='micro'
+export EDITOR='vim'
 export PAGER='less'
-export VISUAL='micro'
+export VISUAL='vim'
 export BROWSER='open'
 
 # locale
