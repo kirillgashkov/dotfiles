@@ -102,10 +102,6 @@ setopt NULL_GLOB
 
 # set emacs mode
 bindkey -e
-# previously `esc+B`
-bindkey '^B' backward-word
-# previously `esc+F`
-bindkey '^F' forward-word
 
 
 #
