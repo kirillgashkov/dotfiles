@@ -5,7 +5,6 @@
 [core]
 	editor = "vim"
 	pager = "diff-so-fancy | less"
-	excludesFile = ~/.gitignore
 
 [push]
     default = simple
