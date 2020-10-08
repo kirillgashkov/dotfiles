@@ -37,9 +37,3 @@ alias gb='git branch'
 alias gl='git log --graph'
 alias gs='git status -sb'
 alias gd='git diff'
-
-# micro - modern terminal-based editor
-alias mi='micro'
-
-# prettyping - `ping` with pretty output
-alias ping='prettyping'
