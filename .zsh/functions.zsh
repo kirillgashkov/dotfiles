@@ -8,6 +8,11 @@ function mcd {
 	[[ -n "$1" ]] && mkdir -p "$1" && cd "$1"
 }
 
+# cds into the forefront Finder window
+function cdf {
+	cd "$(osascript -e 'tell app "Finder" to POSIX path of (insertion location as alias)')"
+}
+
 # cds into specified repository located under $LOCAL_DEV
 function dev {
 	cd "$LOCAL_DEV/$1"
@@ -25,11 +30,6 @@ function work {
 	cd "$LOCAL_WORK/$1"
 }
 compctl -/ -W "$LOCAL_WORK" work
-
-# cds into the forefront Finder window
-function cdf {
-	cd "$(osascript -e 'tell app "Finder" to POSIX path of (insertion location as alias)')"
-}
 
 
 #
