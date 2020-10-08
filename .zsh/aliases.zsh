@@ -1,4 +1,4 @@
-# enable aliases to be sudo'ed
+# Enable aliases to be sudo'ed
 alias sudo="sudo "
 
 
@@ -24,7 +24,7 @@ alias md='mkdir'
 #
 
 
-# git - version contol system
+# git
 alias ga='git add'
 alias gr='git reset HEAD'
 alias gc='git commit'
