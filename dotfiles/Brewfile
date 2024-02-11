@@ -97,7 +97,6 @@ brew "volatility"
 brew "yara"
 
 
-cask "alacritty"
 cask "alfred"
 cask "appcleaner"
 cask "discord"
