@@ -36,9 +36,6 @@ export PATH="$GOPATH/bin:$PATH"  # FIXME: 'GOPATH'
 
 # My utils
 
-export REPOSITORIES="$HOME/Repositories"
-export WORKSPACES="$HOME/Workspaces"
-export NOTES="$HOME/Cloud/notes"
 export DOTFILES_ENVIRONMENT_LOADED=1
 
 # Homebrew
