@@ -32,7 +32,6 @@ export PATH="$PYENV_ROOT/shims:$PATH"  # FIXME: 'PYENV_ROOT'
 
 # Go
 
-export GOPATH="$XDG_DATA_HOME/go"
 export PATH="$GOPATH/bin:$PATH"
 
 # Tealdeer
