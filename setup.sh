@@ -163,10 +163,6 @@ if [ "$macbook" -eq 1 ]; then
     handle_exit "$?"
 fi
 
-section "Setting up fzf"
-"$setups/setup-fzf.sh"
-handle_exit "$?"
-
 section "Setting up tldr"
 "$setups/setup-tldr.sh"
 handle_exit "$?"
