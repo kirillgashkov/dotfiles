@@ -137,10 +137,6 @@ fi
 
 # Set up
 
-section "Installing Homebrew"
-"$setups/install-homebrew.sh"
-handle_exit "$?"
-
 section "Installing Brewfile"
 "$setups/install-brewfile.sh" "$dotfiles/Brewfile"
 handle_exit "$?"
