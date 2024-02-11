@@ -26,10 +26,6 @@ KEYTIMEOUT=1
 ZCOMPDUMP="$XDG_CACHE_HOME/zsh/.zcompdump"  # User-defined
 PROMPT_STYLE="regular"                      # User-defined
 
-# Pip
-
-export PIP_REQUIRE_VIRTUALENV=true
-
 # Pyenv
 
 export PATH="$PYENV_ROOT/shims:$PATH"  # FIXME: 'PYENV_ROOT'
