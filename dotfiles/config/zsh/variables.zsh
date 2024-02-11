@@ -41,11 +41,6 @@ export PYENV_VIRTUALENV_DISABLE_PROMPT=1
 export GOPATH="$XDG_DATA_HOME/go"
 export PATH="$GOPATH/bin:$PATH"
 
-# Bat
-
-export BAT_PAGER=""
-export BAT_THEME="TwoDark"
-
 # Tealdeer
 
 export TEALDEER_CONFIG_DIR="$XDG_CONFIG_HOME/tealdeer"
