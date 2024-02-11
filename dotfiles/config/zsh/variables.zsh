@@ -26,10 +26,6 @@ KEYTIMEOUT=1
 ZCOMPDUMP="$XDG_CACHE_HOME/zsh/.zcompdump"  # User-defined
 PROMPT_STYLE="regular"                      # User-defined
 
-# GNU utils
-
-export GREP_COLORS="ms=01;31:mc=01;31:sl=:cx=:fn=35:ln=32:bn=32:se=36"
-
 # Pip
 
 export PIP_REQUIRE_VIRTUALENV=true
