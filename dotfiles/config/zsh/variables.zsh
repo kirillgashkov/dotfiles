@@ -26,17 +26,6 @@ KEYTIMEOUT=1
 ZCOMPDUMP="$XDG_CACHE_HOME/zsh/.zcompdump"  # User-defined
 PROMPT_STYLE="regular"                      # User-defined
 
-# Less
-
-export LESS_TERMCAP_mb=$'\e[1;31m'
-export LESS_TERMCAP_md=$'\e[1;36m'
-export LESS_TERMCAP_me=$'\e[0m'
-export LESS_TERMCAP_so=$'\e[01;44;33m'
-export LESS_TERMCAP_se=$'\e[0m'
-export LESS_TERMCAP_us=$'\e[1;32m'
-export LESS_TERMCAP_ue=$'\e[0m'
-export LESS="-g -i -M -R -S -x4 --mouse --wheel-lines=5"
-
 # GNU utils
 
 export LS_COLORS="rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32"
