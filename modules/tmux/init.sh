@@ -16,7 +16,7 @@ module_dir="$(CDPATH= cd -- "$(dirname -- "$0")" && pwd)"
 # Requires (maybe) sh (config, because we use tmux commands that invoke shell)
 # Provides tmux
 install() {
-  brew install tmux
+  brew install --formula tmux
   test ! -e "$XDG_CONFIG_HOME/tmux"
   ln -s "$module_dir/config" "$XDG_CONFIG_HOME/tmux"
 }

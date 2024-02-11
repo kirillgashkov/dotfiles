@@ -2,7 +2,7 @@
 
 # Requires brew
 install() {
-  brew install fzf
+  brew install --formula fzf
 }
 
 install
