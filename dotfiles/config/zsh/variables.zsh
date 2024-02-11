@@ -32,7 +32,7 @@ export PATH="$PYENV_ROOT/shims:$PATH"  # FIXME: 'PYENV_ROOT'
 
 # Go
 
-export PATH="$GOPATH/bin:$PATH"
+export PATH="$GOPATH/bin:$PATH"  # FIXME: 'GOPATH'
 
 # My utils
 
