@@ -34,10 +34,6 @@ export PATH="$PYENV_ROOT/shims:$PATH"  # FIXME: 'PYENV_ROOT'
 
 export PATH="$GOPATH/bin:$PATH"
 
-# Tealdeer
-
-export TEALDEER_CONFIG_DIR="$XDG_CONFIG_HOME/tealdeer"
-
 # My utils
 
 export REPOSITORIES="$HOME/Repositories"
