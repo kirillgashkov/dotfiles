@@ -6,7 +6,6 @@ Usage: $0 [options]
 
 Options:
   -h, --help           Show this message.
-  -s, --symlinks-only  Run only symlinking setups
   --[no-]macbook       Run/skip MacBook specific setups.
 EOF
 }
@@ -67,7 +66,6 @@ handle_exit() {
 
 # Handle arguments
 
-symlinks_only=0
 macbook=""
 
 while [ "$#" -gt 0 ]; do
@@ -75,10 +73,6 @@ while [ "$#" -gt 0 ]; do
         -h|--help)
             usage
             exit 0
-            ;;
-        -s|--symlinks-only)
-            symlinks_only=1
-            shift
             ;;
         --macbook)
             macbook=1
@@ -110,21 +104,6 @@ if [ "$?" -ne 0 ]; then
     exit 1
 fi
 
-# Set up if symlinks only
-
-if [ "$symlinks_only" -eq 1 ]; then
-    section "Symlinking binaries from bin/"
-    "$setups/symlink-bin.sh" "$dotfiles/bin"
-
-    section "Symlinking configs from config/"
-    "$setups/symlink-config.sh" "$dotfiles/config"
-
-    section "Symlinking home files from home/"
-    "$setups/symlink-home.sh" "$dotfiles/home"
-
-    exit "$?"
-fi
-
 # Prepare for general setup
 
 if [ -z "$macbook" ]; then
@@ -139,18 +118,6 @@ fi
 
 section "Installing Brewfile"
 "$setups/install-brewfile.sh" "$dotfiles/Brewfile"
-handle_exit "$?"
-
-section "Symlinking binaries from bin/"
-"$setups/symlink-bin.sh" "$dotfiles/bin"
-handle_exit "$?"
-
-section "Symlinking configs from config/"
-"$setups/symlink-config.sh" "$dotfiles/config"
-handle_exit "$?"
-
-section "Symlinking home files from home/"
-"$setups/symlink-home.sh" "$dotfiles/home"
 handle_exit "$?"
 
 section "Setting up macOS"
