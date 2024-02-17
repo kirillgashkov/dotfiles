@@ -167,10 +167,6 @@ section "Setting up tldr"
 "$setups/setup-tldr.sh"
 handle_exit "$?"
 
-section "Setting up sublime-text"
-"$setups/setup-sublime-text.sh" "$dotfiles/config/sublime-text.dotfiles"
-handle_exit "$?"
-
 section "Setting up amphetamine"
 "$setups/setup-amphetamine.sh"
 handle_exit "$?"
