@@ -304,3 +304,25 @@ printcolors() {
         "6" "$(tput setaf 6)" "CYAN   " "$(tput sgr0)" "$(tput bold)$(tput setaf 6)" "BOLD CYAN   " "$(tput sgr0)" "$(tput setab 6)" "BACKGROUND CYAN   " "$(tput sgr0)" \
         "7" "$(tput setaf 7)" "WHITE  " "$(tput sgr0)" "$(tput bold)$(tput setaf 7)" "BOLD WHITE  " "$(tput sgr0)" "$(tput setab 7)" "BACKGROUND WHITE  " "$(tput sgr0)"
 }
+
+docker-open() {
+    open -a Docker
+}
+
+# Restart the audio macOS daemon which often fixes audio issues (especially with AirPods)
+fix-audio() {
+    sudo killall coreaudiod
+}
+
+# Restarts the bluetooth macOS daemon which often fixes audio issues (especially with AirPods)
+fix-bluetooth() {
+    sudo killall bluetoothd
+}
+
+fix-icloud() {
+    killall bird
+}
+
+telegram-bot-get-updates() {
+    curl "https://api.telegram.org/bot$1/getUpdates"
+}
