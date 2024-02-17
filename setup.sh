@@ -163,26 +163,6 @@ if [ "$macbook" -eq 1 ]; then
     handle_exit "$?"
 fi
 
-section "Setting up amphetamine"
-"$setups/setup-amphetamine.sh"
-handle_exit "$?"
-
-section "Setting up flow"
-"$setups/setup-flow.sh"
-handle_exit "$?"
-
-section "Setting up rectangle"
-"$setups/setup-rectangle.sh"
-handle_exit "$?"
-
-section "Setting up telegram"
-"$setups/setup-telegram.sh"
-handle_exit "$?"
-
-section "Setting up transmission"
-"$setups/setup-transmission.sh"
-handle_exit "$?"
-
 
 section "Dotfiles setup complete:"
 [ "$successful_setups" -gt 0 ]           && echo "  $(tput bold)$(tput setaf 3)- $successful_setups $(tput setaf 2)successful$(tput setaf 3) setup(s)$(tput sgr0)"
