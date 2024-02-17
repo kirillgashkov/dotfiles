@@ -13,19 +13,6 @@ export XDG_DATA_HOME="$HOME/.local/share"
 export XDG_STATE_HOME="$HOME/.local/state"
 export PATH="$HOME/.local/bin:$PATH"
 
-# Zsh
-
-export FPATH="$XDG_CONFIG_HOME/zsh/completions:$FPATH"
-PROMPT_EOL_MARK=""
-PS2="%B…%b "
-HISTFILE="$XDG_DATA_HOME/zsh/.zhistory"
-HISTSIZE=10000
-SAVEHIST=10000
-KEYTIMEOUT=1
-
-ZCOMPDUMP="$XDG_CACHE_HOME/zsh/.zcompdump"  # User-defined
-PROMPT_STYLE="regular"                      # User-defined
-
 # Pyenv
 
 export PATH="$PYENV_ROOT/shims:$PATH"  # FIXME: 'PYENV_ROOT'

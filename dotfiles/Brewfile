@@ -6,8 +6,6 @@ tap "mongodb/brew"
 tap "owasp-amass/amass"
 
 
-brew "zsh"
-
 brew "binutils"
 brew "coreutils"
 brew "findutils"
