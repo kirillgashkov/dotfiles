@@ -20,11 +20,6 @@ while true; do sudo -n true; sleep 60; kill -0 "$$" || exit; done 2> /dev/null &
 
 osascript -e 'tell application "System Preferences" to quit'
 
-# Set Mission Control preferences
-
-defaults write com.apple.dock mru-spaces -bool false                               # Don't automatically rearrange Spaces
-defaults write com.apple.dock wvous-br-corner -int 1                               # Turn off quick note feature
-
 # Set language and region preferences
 
 defaults write NSGlobalDomain AppleLocale -string "en_US"                          # Region: US
