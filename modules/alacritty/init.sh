@@ -9,7 +9,6 @@ module_dir="$(CDPATH= cd -- "$(dirname -- "$0")" && pwd)"
 # Config requries tmux (executable at /usr/local/bin/tmux)
 # Config requires tmux (key bindings)
 install() {
-  brew install --cask alacritty
   test ! -e "$XDG_CONFIG_HOME/alacritty"
   ln -s "$module_dir/config" "$XDG_CONFIG_HOME/alacritty"
 }

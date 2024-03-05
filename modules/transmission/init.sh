@@ -5,7 +5,6 @@ set -e
 module_dir="$(CDPATH= cd -- "$(dirname -- "$0")" && pwd)"
 
 install() {
-  brew install --cask transmission
   defaults write org.m0k.transmission DownloadAsk -bool false # Don't ask before starting a download
   defaults write org.m0k.transmission MagnetOpenAsk -bool false # Don't ask before opening a magnet link
   defaults write org.m0k.transmission CheckRemoveDownloading -bool true # Don't ask before removing a non-downloading transfer

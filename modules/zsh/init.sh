@@ -6,7 +6,6 @@ module_dir="$(CDPATH= cd -- "$(dirname -- "$0")" && pwd)"
 
 # Config requires ... (literally everything)
 install() {
-  brew install --formula zsh
   test ! -e "$HOME/.zshenv"
   ln -s "$module_dir/.zshenv" "$HOME/.zshenv"
   test ! -e "$XDG_CONFIG_HOME/zsh"
