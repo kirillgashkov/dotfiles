@@ -40,10 +40,6 @@ defaults write com.apple.SoftwareUpdate AutomaticCheckEnabled -bool true        
 defaults write com.apple.SoftwareUpdate AutomaticDownload -bool true               # Automatically download new updates
 defaults write com.apple.commerce AutoUpdate -bool true                            # Automatically install app updates
 
-# Set iCloud preferences
-
-defaults write com.apple.bird optimize-storage -bool false                         # Keep iCloud files downloaded
-
 # Set Finder preferences
 
 sudo chflags nohidden "/Volumes"                                                                # Show the /Volumes folder
