@@ -73,15 +73,6 @@ defaults write com.apple.HIToolbox AppleDictationAutoEnable -bool false         
     -c "Set :AppleSymbolicHotKeys:65:enabled bool false" \
     "$HOME/Library/Preferences/com.apple.symbolichotkeys.plist"                    # Disable "Show Finder search window" shortcut
 
-# Set trackpad preferences
-
-defaults write com.apple.AppleMultitouchTrackpad FirstClickThreshold -int 0        # Make trackpad click feel light (also set SecondClickThreshold)
-defaults write com.apple.AppleMultitouchTrackpad SecondClickThreshold -int 0       # Make trackpad click feel light (also set FirstClickThreshold)
-
-defaults write NSGlobalDomain com.apple.trackpad.scaling -int 1                    # Make tracking speed faster
-
-defaults write com.apple.AppleMultitouchTrackpad ActuationStrength -int 0          # Enable silent clicking
-
 # Set software update preferences
 
 defaults write com.apple.SoftwareUpdate AutomaticCheckEnabled -bool true           # Automatically check for updates
