@@ -23,13 +23,6 @@ osascript -e 'tell application "System Preferences" to quit'
 # Set Mission Control preferences
 
 defaults write com.apple.dock mru-spaces -bool false                               # Don't automatically rearrange Spaces
-defaults write com.apple.dock minimize-to-application -bool true                   # Minimize windows into application icon in Dock
-defaults write com.apple.dock autohide -bool true                                  # Automatically hide and show the Dock
-defaults write com.apple.dock show-process-indicators -bool true                   # Show indicators for open applications in Dock
-defaults write com.apple.dock show-recents -bool false                             # Don't show recent applications in Dock
-defaults write com.apple.dock persistent-apps -array                               # Remove all (default) icons from Dock
-defaults write com.apple.dock autohide-delay -float 0.2                            # Speed up the Dock's auto-hiding
-defaults write com.apple.dock autohide-time-modifier -float 0.7                    # Speed up the Dock's hiding/showing animation
 defaults write com.apple.dock wvous-br-corner -int 1                               # Turn off quick note feature
 
 # Set language and region preferences
@@ -155,7 +148,6 @@ for program in \
     "Calendar" \
     "cfprefsd" \
     "Contacts" \
-    "Dock" \
     "Finder" \
     "Mail" \
     "Messages" \
