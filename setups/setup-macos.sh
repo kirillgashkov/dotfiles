@@ -83,10 +83,6 @@ defaults write com.apple.commerce AutoUpdate -bool true                         
 
 defaults write com.apple.bird optimize-storage -bool false                         # Keep iCloud files downloaded
 
-# Set Time Machine preferences
-
-defaults write com.apple.TimeMachine DoNotOfferNewDisksForBackup -bool true        # Don't prompt to use new external disks for backups
-
 # Set Finder preferences
 
 sudo chflags nohidden "/Volumes"                                                                # Show the /Volumes folder
