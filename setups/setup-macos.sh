@@ -51,10 +51,6 @@ defaults write NSGlobalDomain AppleShowAllExtensions -bool true                 
 defaults write com.apple.desktopservices DSDontWriteNetworkStores -bool true       # Don't create .DS_Store files on network stores
 defaults write com.apple.desktopservices DSDontWriteUSBStores -bool true           # Don't create .DS_Store files on USB stores
 
-# Set Safari preferences
-
-defaults write com.apple.Safari IncludeDevelopMenu -bool true                      # Show the Develop menu in Safari
-
 # Set Photos preferences
 
 defaults -currentHost write com.apple.ImageCapture disableHotPlug -bool true       # Don't automatically open Photos when devices are plugged in
