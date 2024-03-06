@@ -22,8 +22,8 @@ osascript -e 'tell application "System Preferences" to quit'
 
 # Set sharing preferences
 
-sudo scutil --set ComputerName "Cyril's MacBook"                       # Set computer name
-sudo scutil --set LocalHostName "cyrils-macbook"                       # Set local hostname
+sudo scutil --set ComputerName "Kirill's MacBook"                       # Set computer name
+sudo scutil --set LocalHostName "kirills-macbook"                       # Set local hostname
 
 
 exit_with_success
