@@ -35,8 +35,6 @@ sudo chflags nohidden "/Volumes"                                                
 chflags nohidden "$HOME/Library" && xattr -d com.apple.FinderInfo "$HOME/Library" 2> /dev/null  # Show the ~/Library folder
 
 
-defaults write NSGlobalDomain AppleShowAllFiles -bool true                         # Show hidden files (in open/save dialogs too)
-defaults write NSGlobalDomain AppleShowAllExtensions -bool true                    # Show all filename extensions (in open/save dialogs too)
 defaults write com.apple.desktopservices DSDontWriteNetworkStores -bool true       # Don't create .DS_Store files on network stores
 defaults write com.apple.desktopservices DSDontWriteUSBStores -bool true           # Don't create .DS_Store files on USB stores
 
